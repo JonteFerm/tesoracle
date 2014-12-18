@@ -1,0 +1,182 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+@import url(comments.css);
+@import url(questions.css);
+
+body {
+  color: #000;
+  background-color: #ca6;
+  font-family: Times-new-roman, serif;
+  overflow-y: scroll;
+}
+
+a{
+  color:#222;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+p{
+  margin-left: 0.2em;
+}
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+  background-color: #ca6;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#topbar{
+  background-color: #664422;
+  padding:0.1em;
+  margin-bottom: 1em;
+}
+
+#topbar nav{
+    width:40%;
+    margin:0 auto;
+}
+
+#topbar nav li{
+  display:inline;
+  margin-left:2em;
+}
+
+#topbar nav a{
+  color:#fff;
+  font-size: smaller;
+  text-decoration: none;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 30px;
+  left: 210px;
+  font-size: 50px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 95px;
+  left: 220px;
+  font-style: italic;
+  color: #444;
+  font-size: 20px;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #111;
+  padding-top: 22px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 700px;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #db7;
+  overflow: auto;
+}
+
+.article1 h1,.aside1 h1 {
+  border-bottom: 1px solid;
+}
+
+.aside1 {
+  width: 200px;
+  padding: 1em;
+  background-color: #db7;
+}
+
+.byline {
+  margin-top: 44px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #444;
+}
+
+.byline p {
+  margin-top: 0;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+ul{
+  list-style-type:none;
+  padding: 0;
+}
+
+ul li a{
+  color: #000;
+  text-decoration:udnerline;
+}
+
+ul li a:hover{
+  text-decoration:none;
+}
+
+fieldset{
+  border:none;
+}
+
+fieldset p{
+  margin-left: 0;
+}
+
+.outputSpan{
+  font-size:large;
+  color: #000;
+  margin:0.5em;
+  display: inline-block;
+}
+

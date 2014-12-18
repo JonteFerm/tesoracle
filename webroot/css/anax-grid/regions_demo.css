@@ -1,0 +1,42 @@
+#header,
+#navbar,
+#flash,
+#footer {
+
+    background-color: #888;
+    height:100px;
+}
+ 
+#main {
+
+    height:100px;
+    background-color: #888;
+    
+}
+ 
+#sidebar {
+
+    height:100px;
+    background-color: #888;
+
+}
+ 
+#featured-1,
+#featured-2,
+#featured-3,
+#triptych-1,
+#triptych-2,
+#triptych-3 {
+    height:100px;
+    background-color: #888;
+   
+}
+ 
+#footer-col-1,
+#footer-col-2,
+#footer-col-3, 
+#footer-col-4 {
+    height:100px;
+    background-color: #888;
+
+}

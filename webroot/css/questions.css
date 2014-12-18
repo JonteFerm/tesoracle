@@ -1,0 +1,162 @@
+.question{
+  margin-bottom: 1em;
+  padding: 0.5em;
+  min-height: 50px;
+  width: 98%;
+  display: inline-block;
+  word-break:break-all;
+}
+
+.question figure{
+  float: left; 
+  margin-right: 1em;
+}
+
+.question figure img{
+  background-color: #fff;
+  width:80px; 
+  height:80px; 
+}
+
+.tagSpan{
+  background-color: #664422;
+  height: 1em;
+  display: inline-block;
+  padding: 0.5em;
+  color:#fff;
+  margin-bottom: 0.5em;
+}
+
+.tagSpan:hover{
+  background-color: #fff;
+  color:#664422;
+}
+
+.smallerText{
+  font-size: smaller;
+}
+
+.askButton{
+  background-color: #664422;
+  padding:0.5em;
+  color:#fff;
+
+}
+
+.askButton:hover{
+  box-shadow: 0px 0px 2px 2px #000;
+
+}
+
+a#question-title{
+  color: #000;
+  font-size: larger;
+}
+
+.writeAnswerDiv,.answersDiv{
+  overflow: auto;
+  padding:0.5em;
+  margin-bottom: 1em;
+  background-color: #776634;
+}
+
+.answersDiv figure img{
+  width:80px;
+  height:80px;
+}
+
+.answersDiv{
+  word-break:break-all;
+}
+
+.writeAnswerDiv,.askForm fieldset,.question,.answersDiv{
+  background-color: #B38E43;
+  
+}
+
+.writeAnswerDiv fieldset{
+  border: none;
+  padding:0;
+
+}
+
+.writeAnswerDiv textarea{
+  width:99%;
+  min-height:150px;
+  resize:vertical;
+}
+
+.commentDiv{
+  border-top: 1px solid;
+  border-left:1px solid;
+  font-size: smaller;
+  overflow: auto;
+  margin-top:3em;
+  padding-left:0.5em;
+  padding-right:0.5em;
+  word-break: break-all;
+
+}
+
+.askForm fieldset{
+  border:none;
+}
+
+.askForm textarea{
+  resize: vertical;
+  width: 95%;
+  height: 150px;
+}
+
+.askForm select{
+  width: 30%;
+}
+
+.askForm input[type='text']{
+  width: 95%;
+}
+
+.userLink{
+  background-color:#B38E43;
+  margin:0.5em;
+  display:inline-block;
+  width:8em;
+  padding:0.5em;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.userLink:hover{
+  background-color: #fff;
+}
+
+.userLink img{
+  margin-right: 0.5em;
+}
+
+.editSpan{
+  font-size: small;
+
+}
+
+.editSpan a{
+  color:#000;
+}
+
+.userHistDiv{
+  margin-left:1em;
+  overflow:auto;
+  width:30%;
+}
+
+.userHistDiv ul{
+  background-color: #B38E43;
+  padding:0.5em;
+  height:150px;
+  overflow-y:scroll;
+}
+
+.userHistDiv li{
+  font-size: small;
+  margin-bottom:1em;
+}

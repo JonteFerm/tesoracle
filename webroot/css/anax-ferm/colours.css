@@ -1,0 +1,33 @@
+p,h1,h2,h3,h4,h5,h6,dd,dt,ul,ol,table{
+	margin: 11px;
+}
+
+body {
+  color: #fff;
+  background-color: #fff;
+}
+
+#wrapper {
+  background-color:#070;
+}
+
+#header, #navbar, #footer{
+	background-color: #030;
+}
+
+#header span.siteslogan{
+	color: #aaa;
+}
+
+#navbar a {
+	color: #aaa;
+}
+
+#main, #sidebar{
+	background-color: #050;
+}
+
+#flash,#featured, #footer-col-1, #footer-col-2, #footer-col-3 {
+	background-color: #055;
+}
+
